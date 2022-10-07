@@ -32,17 +32,17 @@ https://github.com/kanious/Project01_ArtilleryGame
   5: Rolling Bullet Mode
 
   Space: Fire Bullet
-  N : New game start
-  Backspace: Close game
+  N: New game start
+  Escape: Close game
 
   (Camera Option)
-  F1 : Normal View 
-  F2 : Top View
-  F3 : Front View
-  F4 : Right View
+  F1: Normal View 
+  F2: Top View
+  F3: Front View
+  F4: Right View
 
-  W, S : Change fire angle (up and down)
-  A, D : Change fire angle (left and right)
+  W, S: Change fire angle (up and down)
+  A, D: Change fire angle (left and right)
 
 
 - Bullet Detail
