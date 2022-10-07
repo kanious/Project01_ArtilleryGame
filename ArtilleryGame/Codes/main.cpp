@@ -9,6 +9,7 @@ int main(int argc, char* argv)
 	//_CrtSetBreakAlloc(34277);
 
 	system("mode con: cols=80 lines=25");
+	srand((unsigned int)time(NULL));
 
 	Client* pClient = Client::Create();
 	if (nullptr == pClient)

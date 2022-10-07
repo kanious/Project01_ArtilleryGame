@@ -140,7 +140,7 @@ void ConsoleManager::InitText()
 	string str3 = "* [2] Divided Bullet\t\t\t\t[F2] Top View\t\t*"; m_vecString.push_back(str3);
 	string str4 = "* [3] Multiple Bullet\t[N] New Game\t\t[F3] Front View\t\t*"; m_vecString.push_back(str4);
 	string str5 = "* [4] Bombing Bullet\t\t\t\t[F4] Right view\t\t*"; m_vecString.push_back(str5);
-	string str6 = "* [5] Bounce Bullet\t[Backspace] Game close\t[WASD] Angle Change \t*"; m_vecString.push_back(str6);
+	string str6 = "* [5] Rolling Bullet\t[Backspace] Close Game\t[WASD] Angle Change \t*"; m_vecString.push_back(str6);
 	string str7 = "*************************************************************************"; m_vecString.push_back(str7);
 	ChangeBulletType(B_BOUNCE);
 }

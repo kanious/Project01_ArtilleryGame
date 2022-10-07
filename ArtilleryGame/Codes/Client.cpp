@@ -119,8 +119,6 @@ RESULT Client::Ready()
 {
 	RESULT result = PK_NOERROR;
 
-	srand((unsigned int)time(NULL));
-
 	if (nullptr != m_pOpenGLDevice)
 	{
 		result = m_pOpenGLDevice->CreateOpenGLWindow(1200, 800, "OpenGL Window");

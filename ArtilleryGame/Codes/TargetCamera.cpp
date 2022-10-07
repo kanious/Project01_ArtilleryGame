@@ -90,8 +90,8 @@ void TargetCamera::KeyCheck(const _float&)
 		if (!isF3Down)
 		{
 			isF3Down = true;
-			m_pCamera->SetCameraEye(vec3(0.f, 10.f, 70.f));
-			m_pCamera->SetCameraTarget(vec3(0.f, 10.f, 0.f));
+			m_pCamera->SetCameraEye(vec3(0.f, 0.f, 70.f));
+			m_pCamera->SetCameraTarget(vec3(0.f, 0.f, 0.f));
 		}
 	}
 	else
@@ -102,8 +102,8 @@ void TargetCamera::KeyCheck(const _float&)
 		if (!isF4Down)
 		{
 			isF4Down = true;
-			m_pCamera->SetCameraEye(vec3(70.f, 10.f, 1.f));
-			m_pCamera->SetCameraTarget(vec3(0.f, 10.f, 0.f));
+			m_pCamera->SetCameraEye(vec3(70.f, 0.f, 1.f));
+			m_pCamera->SetCameraTarget(vec3(0.f, 0.f, 0.f));
 		}
 	}
 	else
